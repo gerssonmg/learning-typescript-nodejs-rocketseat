@@ -1,0 +1,66 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.autofetch": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    // "editor.formatOnSave": true,
+    "redhat.telemetry.enabled": true,
+    "git.confirmSync": false,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "terminal.integrated.shellArgs.windows": [
+        "--login",
+        "-i"
+    ],
+    "cloudcode.project": "full-cycle-docker-01",
+    "kotlin.languageServer.enabled": false,
+    "kotlin.debugAdapter.enabled": false,
+    "cloudcode.autoDependencies": "off",
+    "prettier.singleQuote": true,
+    "cloudcode.duetAI.project": "loggi-arco-production",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "symbols.hidesExplorerArrows": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "terminal.external.windowsExec": "C:\\Program Files\\Git\\bin\\bash.exe '--login' '-i'",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "git.openRepositoryInParentFolders": "always",
+    "settingsSync.ignoredExtensions": [
+        "googlecloudtools.cloudcode"
+    ],
+    "diffEditor.ignoreTrimWhitespace": false,
+    "prisma.showPrismaDataPlatformNotification": false,
+    "github.copilot.editor.enableAutoCompletions": true,
+    "workbench.iconTheme": "vscode-icons",
+    "editor.diagnosticSeverity": {
+        "hint": "hidden",
+        "info": "hidden",
+        "warning": "hidden",
+        "error": "hidden"
+    },
+    "[prisma]": {
+        "editor.formatOnSave": true
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+}
