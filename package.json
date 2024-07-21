@@ -14,8 +14,10 @@
     "@rocketseat/eslint-config": "^2.2.2",
     "@types/node": "^20.14.11",
     "eslint": "^9.7.0",
+    "globals": "^15.8.0",
     "tsx": "^4.16.2",
-    "typescript": "^5.5.3"
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^7.16.1"
   },
   "dependencies": {
     "fastify": "^4.28.1"
