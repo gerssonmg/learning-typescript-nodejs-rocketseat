@@ -3,6 +3,7 @@ import tsParser from '@typescript-eslint/parser';
 import tsPlugin from '@typescript-eslint/eslint-plugin';
 import prettierPlugin from 'eslint-plugin-prettier';
 import prettierConfig from 'eslint-config-prettier';
+import globals from 'globals';
 
 const prettierRules = {
   'prettier/prettier': [
@@ -27,6 +28,7 @@ export default [
       globals: {
         ...js.globals,
         ...tsPlugin.configs.recommended.globals,
+        ...globals.browser
       },
     },
     plugins: {

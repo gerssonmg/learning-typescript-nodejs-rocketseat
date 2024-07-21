@@ -19,8 +19,14 @@ console.log('aqui')
 //     "source.fixAll.eslint": "explicit"
 //   },
 
-const alo = (aqui) => {
-  console.log('alo')
+interface User {
+  name: string
+  email: string
+  address?: string
 }
 
-alo(1)
+const alo = (aqui: User) => {
+  console.log(aqui)
+}
+
+alo({ name: 'aqui', email: 'aqui' })
